@@ -1,0 +1,226 @@
+.module-agenda__5{
+	overflow: hidden!important;
+}
+.module-agenda__5 img{
+	max-width: 100vw!important;
+}
+.main-footer .wrapper {
+	padding-left: 0;
+  padding-right:0;
+}
+/*.art-tools.i.inline-tools.g {margin:0px;}
+/*relacionadas agenda*/
+@media (max-width: 600px){ 
+.tribe-events-single ul.tribe-related-events li .tribe-related-event-info {    width: 100%;}
+	.tribe-events-single ul.tribe-related-events .tribe-related-events-thumbnail {width:100%;}
+	}
+
+.art-tools.i.inline-tools.g {
+	margin: 0;
+}
+
+/* REMOVER DOBLE MENU EN MOVIL*/
+@media (max-width: 766px){ 
+.home.has-menu .text {
+    display: none !important;
+}
+
+}
+
+/* CUANDO FO DE VACAS  */
+.category-opinion .aut-deco{
+	display: none;
+}
+
+.category-opinion .author-box>header{
+	min-height: initial;
+}
+
+.category-opinion .shaded-box .author-box:last-child .h-gamma{
+	display:none;
+}
+
+.category-opinion .shaded-box .author-box:last-child .bx-author{
+	display:none;
+}
+
+.category-opinion .shaded-box .author-box:last-child .shaded-box:after{
+	content: 'Caricatura';
+	margin: 0 0 20px 0px;
+	font-family: Merriweather Sans,Arial,Helvetica,sans-serif;
+  font-weight: 900;
+	font-size: 1.875rem;
+	letter-spacing: -.035em;
+	color: #2f3136;
+}
+
+@media (max-width: 767px) {
+  .category-opinion .shaded-box .author-box:last-child .shaded-box:after {
+   font-size: 1.625rem;
+  }
+}
+    
+
+/* FIN CUANDO FO DE VACAS */
+
+
+.category-tribuna .section-nav{
+	display: none;
+}
+
+
+/* FIXES IFRAME */
+
+
+@media (max-width: 1021px) {
+	.home .module-embed__3 iframe{
+		height: 290px;
+	}
+}
+
+
+@media (max-width: 768px) {
+	.home .module-embed__3 iframe{
+		height: 310px;
+	}
+	.home .module-embed__3 .one-whole{
+		width:100%;
+	}
+}
+
+
+@media (max-width: 460px) {
+	.home .module-embed__3 iframe{
+		height: 500px;
+	}
+}
+
+/* DECISION LIBRE */
+
+.page-template-page-custom-layouts .shaded-box {
+	border:none;
+}
+.horizontal-slide-wrapper .bx-viewport{
+	margin-bottom:none;
+	height:330px!important;
+}
+.list-features{
+padding-bottom: 0px;
+}
+.dl-horizontal-slide2 .gi.one-quarter
+{margin-bottom:0px;}
+.dl-title-skyblue, .dl-title-skyblue2{margin-top:-2%;}
+
+.single-article.commercial  .sart-content .theme-date,
+
+.single-article.commercial  .sart-content .shaded-box{
+	display:none;
+}
+
+/*
+@media (min-width: 768px){
+.historias-modal {
+    padding-top: 0px !important;
+}
+}
+
+
+.historias-modal-contenido {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.owl-carousel .owl-stage-outer {
+    height: 90vh;
+		max-height: 700px;
+}
+
+
+.history-text {
+    padding-bottom: 10px;
+}
+
+.cont-history {
+   height: 90vh;
+	 max-height: 700px;
+	 background-size: cover !important;
+	 background-position: top center;
+}
+
+.body-otras-historias {
+    height: 480px;
+		max-height: 90vh;
+}
+
+.texto-otras-historias p{
+	position: relative;
+	padding-left: 10px;
+}
+
+.texto-otras-historias p:before{
+	left: 0px;
+	top: 1px;
+}
+*/
+
+/* titulo ahora en especial coronavirus*/
+.page-id-5255918 .ahora-list header h1 {  
+	text-indent:-9999px;
+} 
+.page-id-5255918 .ahora-list header h1:before { 
+	text-indent:0;  
+	content:'Ahora Coronavirus';  float:left;
+}
+
+
+/*publicidad temporal e-planning hasta 31 agosto*/
+@media(min-width:320px){.render{width:320px;height:100px;}}@media(min-width:480px){.render{width:320px;height:100px;}}@media(min-width:600px){.render{width:320px;height:100px;}}@media(min-width:801px){.render{width:970px;height:90px;}}@media(min-width:1025px){.render{width:970px;height:90px;}}@media(min-width:1281px){.render{width:970px;height:90px;}}
+
+/* ocultar menu pie secundario*/
+#menu-item-7237702 {
+	display:none;
+}
+
+/* aceptar políticas de cookies*/
+@media (max-width: 600px) {
+#eu-cookie-law input.accept {
+	position: relative !important;
+	top: 50%;
+   transform: translateY(50%);
+	}
+}
+
+
+
+.hstpnetworkads > div{
+		/*width: 100vw;
+		position:relative;
+		left: 50%;
+		right: 50%;
+		margin-left: -50vw;
+		margin-right: -50vw;
+	*/
+}
+
+
+/* Correccion sidebar publicidad */
+
+
+@media only screen and (min-width: 62.625em){
+	.single-article .sart-content {
+			margin-right: 25.5%;
+	}
+}
+
+.floating-aside .wrapper {
+		min-width: 300px;
+    max-width: 100%;
+}
+
+
+.single-commercial ol a{
+	color: #4783b2 !important;
+}
+
